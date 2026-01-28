@@ -44,5 +44,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: hospitalwebapp
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07EF07EF40AC4CBB860A8B6287ADFB4E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: '*.jar'
+
